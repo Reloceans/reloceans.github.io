@@ -219,6 +219,16 @@
   footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1.5rem; align-items: center; }
   footer .mark { font-weight: 800; font-size: var(--step-1); }
   footer p { margin: 0; opacity: .75; }
+  .follow { display: flex; flex-wrap: wrap; gap: .6rem; }
+  .follow a {
+    display: inline-flex; align-items: center; min-height: 44px; padding: .55rem 1.15rem;
+    border: 1.5px solid rgba(241,251,249,.4); border-radius: 999px;
+    font-weight: 600; text-decoration: none; transition: background-color .2s, color .2s, border-color .2s;
+  }
+  .follow a:hover { background: var(--sun); border-color: var(--sun); color: var(--abyss); }
+  .follow a.mail { background: var(--foam); border-color: var(--foam); color: var(--abyss); }
+  .follow a.mail:hover { background: var(--sun); border-color: var(--sun); }
+  footer .legal { width: 100%; font-size: .8rem; opacity: .6; }
 
   /* ---------- responsive ---------- */
   @media (max-width: 760px) {
@@ -388,7 +398,13 @@
   <div class="wrap">
     <span class="mark">Reloceans</span>
     <p>Explore. Learn. Protect.</p>
-    <p><a href="https://www.instagram.com/reloceans/" target="_blank" rel="noopener">@reloceans on Instagram</a></p>
+    <nav class="follow" aria-label="Follow and contact">
+      <a href="https://www.instagram.com/reloceans/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.tiktok.com/@reloceans" target="_blank" rel="noopener">TikTok</a>
+      <a href="https://www.youtube.com/@reloceans" target="_blank" rel="noopener">YouTube</a>
+      <a class="mail" href="mailto:hello@reloceans.com">Email us</a>
+    </nav>
+    <p class="legal">hello@reloceans.com · <a href="/privacy.html">Privacy</a></p>
   </div>
 </footer>
 
