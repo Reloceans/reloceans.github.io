@@ -8,7 +8,7 @@
 - Finn, a bottlenose dolphin (Tursiops truncatus): slowing boats near dolphins
 - Pip, a long-snouted seahorse (Hippocampus guttulatus): anchoring on sand, protecting Posidonia seagrass
 - Ollie, a common octopus (Octopus vulgaris): reporting ghost nets
-- Gus, a dusky grouper (Epinephelus marginatus): not buying undersized fish
+- Gus, a dusky grouper (Epinephelus marginatus): not buying grouper or undersized fish
 
 ## How we work
 - The characters are AI-animated, and every post is labelled as AI-made. The facts are checked and linked to their sources.
